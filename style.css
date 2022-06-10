@@ -4,3 +4,60 @@
   box-sizing: border-box;
 }
 
+.row-title {
+  margin: 20px 20px 20px 20px;
+  padding: 2px 2px 2px 2px;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.row-subtitle {
+  margin: 20px 20px 20px 20px;
+  border-top: 1px solid;
+  border-color: rgb(110, 179, 179);
+  width: 450px;
+  cursor: pointer;
+}
+
+h5 {
+  margin-top: 10px;
+  padding: 2px 2px 2px 2px;
+  font-style: oblique;
+  cursor: pointer;
+}
+
+.row-image {
+  background-image: url(./Assets/secondChoice.png);
+  height: 350px;
+  width: 450px;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.row-footer {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.row-footerTitle {
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+h6 {
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+p {
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
