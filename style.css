@@ -26,3 +26,61 @@ div.row.second-col svg:hover {
   border-bottom: 1px solid transparent;
   color: #da954f;
 }
+
+.row-title {
+  margin-left: 2%;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.row-subtitle {
+  margin-left: 2%;
+  border-top: 2px solid;
+  border-color: rgb(110, 179, 179);
+  width: 50%;
+  cursor: pointer;
+}
+
+.row-subtitle h5 {
+  margin-top: 2%;
+  text-align: center;
+  font-style: oblique;
+  cursor: pointer;
+}
+
+.row-image {
+  background-image: url(./Assets/secondChoice.png);
+  height: 350px;
+  width: 100%;
+  max-width: 50%;
+  margin-left: 2%;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.row-footer {
+  margin-left: 2%;
+  margin-top: 2%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.row-footerTitle {
+  margin-left: 2%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+h6 {
+  margin-left: 2%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+p {
+  margin-left: 2%;
+  margin-top: 2%;
+  cursor: pointer;
+}
