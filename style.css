@@ -4,17 +4,17 @@
   box-sizing: border-box;
 }
 
-.row svg{
+.row.second-col svg{
   color: rgb(237, 194, 141);
   margin: 10px;
 }
 
-.row ul li{
+.row.second-col ul li{
   flex-direction: row;
   display: inline-block;
 }
 
-.row a svg{
+.row.second-col a svg{
   text-decoration: none;
     color:rgb(233, 193, 145);
     transition: color 0.5s;
@@ -22,7 +22,7 @@
     transition: border-bottom 0.5s;
 }
 
-.row svg:hover{
+.row.second-col svg:hover{
   border-bottom: 1px solid transparent;
   color: #da954f;
 }
