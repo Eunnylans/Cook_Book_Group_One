@@ -17,7 +17,7 @@
   outline: none;
 }
 
-/* start col1 */
+/* start col1*/
 div.first-col {
   display: flex;
   flex-flow: column nowrap;
@@ -28,7 +28,7 @@ div.first-col > * {
   border-bottom: var(--border);
   border-right: var(--border);
 }
-/* clo1 row1 */
+/* clo1 row1  logo*/
 div.first-col > div.logo {
   display: flex;
   flex-flow: column nowrap;
@@ -51,10 +51,8 @@ div.first-col > div.logo > small {
   padding-top: 0.5rem;
 }
 
-/* clo1 row2 */
-
+/* clo1 row2 recipe*/
 div.first-col > div.row:nth-child(2) {
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: start;
@@ -66,6 +64,10 @@ div.first-col > div.row:nth-child(2) button {
   border: 0;
   font-weight: 20%;
   opacity: 0.6;
+}
+
+div.first-col > div.row:nth-child(2) button:focus{
+  outline: none;
 }
 
 /* start menu list */
@@ -181,4 +183,13 @@ div.col2 > *{
   div.col-md-1{
     display: none;
   }
+}
+
+/* adding show and hide effects for menu list */
+
+.show{
+  visibility: visible;
+}
+.hide{
+  visibility: hidden;
 }
