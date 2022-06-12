@@ -11,5 +11,5 @@ menu.addEventListener('click', function () {
   }
 })
 let myFunction = () => {
-  alert("Hello");
+  alert("Hello! Patronize us via this link https://eunnylans.github.io/Cook_Book_Group_One/#");
 };
