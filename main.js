@@ -10,6 +10,9 @@ menu.addEventListener('click', function () {
     menuList.classList.add("show");
   }
 })
-let myFunction = () => {
-  alert("Hello! Patronize us via this link https://eunnylans.github.io/Cook_Book_Group_One/#");
-};
+
+// alert function
+addEventListener('click', function () {
+  let url = document.location.href
+  alert(url)
+})
