@@ -13,7 +13,7 @@ menu.addEventListener('click', function () {
 })
 
 // alert function
-addEventListener('click', function () {
+share.addEventListener('click', function () {
   let url = document.location.href
   alert(url)
 })
